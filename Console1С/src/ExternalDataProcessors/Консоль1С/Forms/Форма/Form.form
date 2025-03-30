@@ -8458,12 +8458,12 @@
   <formCommands>
     <name>КоманднаяПанельВыполнитьДобавитьКонфигурацию</name>
     <title>
-      <key>ru</key>
-      <value>Добавить конфигурацю...</value>
-    </title>
-    <title>
       <key>en</key>
       <value>At client</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Добавить конфигурацию...</value>
     </title>
     <id>30</id>
     <toolTip>
