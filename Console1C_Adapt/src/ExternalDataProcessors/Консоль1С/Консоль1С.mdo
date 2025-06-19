@@ -29,17 +29,15 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="b75c2137-ad07-4c9b-a0fb-283ebce2f6ce">
-    <name>ПолноеИмяОбработки</name>
+  <attributes uuid="5126d681-f4e7-43f0-b3ef-5634f26e036e">
+    <name>ИмяФайла</name>
     <synonym>
       <key>ru</key>
-      <value>Полное имя обработки</value>
+      <value>Имя файла</value>
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -57,15 +55,17 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="5126d681-f4e7-43f0-b3ef-5634f26e036e">
-    <name>ИмяФайла</name>
+  <attributes uuid="b75c2137-ad07-4c9b-a0fb-283ebce2f6ce">
+    <name>ПолноеИмяОбработки</name>
     <synonym>
       <key>ru</key>
-      <value>Имя файла</value>
+      <value>Полное имя обработки</value>
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers/>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -79,6 +79,14 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="a5f0757c-bc9e-4f43-be34-e145658b2d8f">
+    <name>Code1C</name>
+    <synonym>
+      <key>ru</key>
+      <value>Code 1C</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
   <templates uuid="fa42037f-3b67-4f45-b5f1-967ece2ad531">
     <name>src</name>
     <synonym>
@@ -86,30 +94,6 @@
       <value>src</value>
     </synonym>
     <templateType>BinaryData</templateType>
-  </templates>
-  <templates uuid="da330e7b-20f6-436f-8ee2-2231e5fdfb5e">
-    <name>ПользовательскиеСниппеты</name>
-    <synonym>
-      <key>ru</key>
-      <value>Пользовательские сниппеты</value>
-    </synonym>
-    <templateType>TextDocument</templateType>
-  </templates>
-  <templates uuid="66909b21-d413-4674-abd0-b10d9d641390">
-    <name>ПользовательскиеФункции</name>
-    <synonym>
-      <key>ru</key>
-      <value>Пользовательские функции</value>
-    </synonym>
-    <templateType>TextDocument</templateType>
-  </templates>
-  <templates uuid="3750b380-c105-482a-af34-0f306a2dc057">
-    <name>МакетЗапроса</name>
-    <synonym>
-      <key>ru</key>
-      <value>Макет запроса</value>
-    </synonym>
-    <templateType>TextDocument</templateType>
   </templates>
   <templates uuid="6a059ef4-dac2-4b91-8db8-4116e28a7070">
     <name>unzip</name>
@@ -127,11 +111,11 @@
     </synonym>
     <templateType>BinaryData</templateType>
   </templates>
-  <templates uuid="52dc69b6-beab-4b3d-9c89-52c4e1ebc536">
-    <name>zlib1</name>
+  <templates uuid="afbe5518-fe3d-4628-8f22-47e32ef0dd5a">
+    <name>v8unpackpy</name>
     <synonym>
       <key>ru</key>
-      <value>zlib1.dll</value>
+      <value>V8unpackpy</value>
     </synonym>
     <templateType>BinaryData</templateType>
   </templates>
@@ -143,20 +127,44 @@
     </synonym>
     <templateType>BinaryData</templateType>
   </templates>
-  <templates uuid="afbe5518-fe3d-4628-8f22-47e32ef0dd5a">
-    <name>v8unpackpy</name>
+  <templates uuid="52dc69b6-beab-4b3d-9c89-52c4e1ebc536">
+    <name>zlib1</name>
     <synonym>
       <key>ru</key>
-      <value>V8unpackpy</value>
+      <value>zlib1.dll</value>
     </synonym>
     <templateType>BinaryData</templateType>
   </templates>
-  <templates uuid="a5f0757c-bc9e-4f43-be34-e145658b2d8f">
-    <name>Code1C</name>
+  <templates uuid="1cca5e32-f8d2-42dd-8ad2-acca103b4533">
+    <name>КонсольЗапросов</name>
     <synonym>
       <key>ru</key>
-      <value>Code 1C</value>
+      <value>Консоль запросов</value>
     </synonym>
     <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="3750b380-c105-482a-af34-0f306a2dc057">
+    <name>МакетЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет запроса</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="da330e7b-20f6-436f-8ee2-2231e5fdfb5e">
+    <name>ПользовательскиеСниппеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользовательские сниппеты</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="66909b21-d413-4674-abd0-b10d9d641390">
+    <name>ПользовательскиеФункции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользовательские функции</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
   </templates>
 </mdclass:ExternalDataProcessor>
