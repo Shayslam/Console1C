@@ -135,11 +135,27 @@
     </synonym>
     <templateType>BinaryData</templateType>
   </templates>
-  <templates uuid="1cca5e32-f8d2-42dd-8ad2-acca103b4533">
+  <templates uuid="661358b2-2526-44d3-b94a-88c00f2ac103">
     <name>КонсольЗапросов</name>
     <synonym>
       <key>ru</key>
       <value>Консоль запросов</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="892202eb-6411-4410-b595-cfe4f0cb67f5">
+    <name>КонсольСКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Консоль СКД</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="1cca5e32-f8d2-42dd-8ad2-acca103b4533">
+    <name>КонструкторЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конструктор запросов</value>
     </synonym>
     <templateType>BinaryData</templateType>
   </templates>
