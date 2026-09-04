@@ -1,3 +1,5 @@
+[![OpenYellow](https://openyellow.openintegrations.dev/data/badges/957504117.svg)](https://openyellow.org/grid?filter=top&repo=957504117)
+
 # Консоль 1С
 
 Консоль для выполнения кода 1С (в том числе через внешние обработки) в разрезе конфигураций запуска.
